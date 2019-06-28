@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="learn.css">
+    <title>Music</title>
+    <script src="jquery/jquery.js"></script>
+</head>
+<body>
+    <div id='topbar'>
+            <h1>This is my personal website</h1>
+            <h2>My wife and some musics</h2>
+    </div>
+     <div id='mid-big'>
+    <div id='first'>
+            <p id='text'> 
+            Hello 大猪猪
+            </p>   
+
+            <button id='name'>
+                Change to English name
+            </button>
+         </div>
+
+         <div id='second'>
+                <ul>
+                        <li>my girlfriend is triko</li>
+                        <li>my girlfriend's Chinese name is Zhang zilin</li>
+                        <li>her website is: <a href="http://www.szdutian.com/">深圳都田</a></li>
+                        <form action="http://www.szdutian.com/">
+                            <p>Want to know more?</p>
+                            <p><input type="submit" value="Click me!"></p>
+                            </form>
+                </ul>
+         </div>
+
+         <div id='image'>
+                <img id='BB' src="photo/A.JPG" height="270px" width="200px;">
+
+         </div>
+
+         <div id='frame'>
+             <iframe src="http://www.szdutian.com/" width="700px;" height="280px"></iframe>
+
+         </div>
+        </div>
+
+
+         <div id='music'>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/0Wbw08oXmWc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/omEPWFAIRgA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xoH29SM3e8I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/8wxSznoFjso" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+        </div>
+        <script type="text/javascript">
+            document.getElementById('name').onclick=function(){
+                 document.getElementById('text').innerHTML='Hello Triko';
+            }  
+                $('#BB').click(function(){
+                    alert('Hi~我是大美女 ')
+
+                })
+        </script>
+    </body>
+</html>

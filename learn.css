@@ -1,0 +1,59 @@
+#topbar{
+    background-color: paleturquoise;
+    height: 100px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,h2{
+    text-align: center;
+    color: black;
+
+}
+
+
+#first{
+    float: left;
+    width: 200px;
+    height: 100px;
+
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 5px;
+
+}
+
+
+#second{
+    float: left;
+    height: 250px;
+    width: 230px;
+
+    margin-right: 50px;
+
+}
+
+#image{
+    width: 200px;
+    height: 130px;
+    float: left;
+    margin-right: 50px;
+    margin-top: 5px;
+}
+#frame{
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+#mid-big{
+    height: 300px;
+    border:outset;
+
+}
+
+
